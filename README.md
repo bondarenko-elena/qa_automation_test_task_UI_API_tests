@@ -31,4 +31,5 @@ To run a suite:
 
 UI tests can be executed in **headless mode** (without opening a browser window).
 
-- To enable headless mode: open `src/test/resources/selenide.properties` and set:
+- To enable headless mode: open `src/test/resources/selenide.properties` and set [selenide.headless=true]
+- To run tests with a visible browser, set [selenide.headless=false]
