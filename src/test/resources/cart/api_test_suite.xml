@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite"  verbose="1">
+    <test verbose="3" name="All Tests" thread-count="1">
+        <classes>
+            <class name="com.bondarenko.cart.api_tests.CartCreationApiTest"/>
+            <class name="com.bondarenko.cart.api_tests.CartItemsApiTest"/>
+            <class name="com.bondarenko.cart.api_tests.CartDiscountApiTest"/>
+        </classes>
+    </test>
+</suite>
