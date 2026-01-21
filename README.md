@@ -1,5 +1,5 @@
 
-# QA Automation test task
+# Test task for QA Automation position Java + RestAssured/Selenide + TestNG
 
 API Testing for the following endpoints:
 
