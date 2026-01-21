@@ -12,7 +12,7 @@ API Testing for the following endpoints:
 | `/cart/:cartId/discount`     | POST   | Apply discount code           |
 | `/health`                    | GET    | Health check                  |
 
-Functional Testing
+Functional Testing (Java + RestAssured + TestNG)
 - Cart creation and retrieval
 - Adding items with valid data
 - Adding items with invalid data (negative price, zero quantity, missing fields)
@@ -22,7 +22,7 @@ Functional Testing
 - Cart total calculation accuracy
 - Discount calculation accuracy
 
-UI Testing
+UI Testing (Java + Selenide + TestNG)
 - Form validation
 - Adding items through the UI
 - Removing items through the UI
