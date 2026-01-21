@@ -3,13 +3,14 @@
 
 API Testing for the following endpoints:
 
-Endpoint	Method	Description
-/cart	POST	Create a new cart
-/cart/:cartId	GET	Get cart details and summary
-/cart/:cartId/items	POST	Add item to cart
-/cart/:cartId/items/:itemId	DELETE	Remove item from cart
-/cart/:cartId/discount	POST	Apply discount code
-/health	GET	Health check
+| Endpoint                     | Method | Description                   |
+|------------------------------|--------|-------------------------------|
+| `/cart`                      | POST   | Create a new cart             |
+| `/cart/:cartId`              | GET    | Get cart details and summary  |
+| `/cart/:cartId/items`        | POST   | Add item to cart              |
+| `/cart/:cartId/items/:itemId`| DELETE | Remove item from cart         |
+| `/cart/:cartId/discount`     | POST   | Apply discount code           |
+| `/health`                    | GET    | Health check                  |
 
 Functional Testing
 - Cart creation and retrieval
