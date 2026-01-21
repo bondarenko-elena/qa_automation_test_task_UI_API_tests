@@ -1,3 +1,35 @@
+
+# QA Automation test task
+
+API Testing for the following endpoints:
+
+Endpoint	Method	Description
+/cart	POST	Create a new cart
+/cart/:cartId	GET	Get cart details and summary
+/cart/:cartId/items	POST	Add item to cart
+/cart/:cartId/items/:itemId	DELETE	Remove item from cart
+/cart/:cartId/discount	POST	Apply discount code
+/health	GET	Health check
+
+Functional Testing
+- Cart creation and retrieval
+- Adding items with valid data
+- Adding items with invalid data (negative price, zero quantity, missing fields)
+- Removing items from cart
+- Applying valid discount codes (SAVE10, SAVE20, HALF)
+- Applying invalid discount codes
+- Cart total calculation accuracy
+- Discount calculation accuracy
+
+UI Testing
+- Form validation
+- Adding items through the UI
+- Removing items through the UI
+- Applying discount codes through the UI
+- Correct display of prices and totals
+
+---
+
 # How to Run the Tests
 
 The project contains automated tests organized as follows:
